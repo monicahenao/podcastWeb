@@ -43,38 +43,7 @@ export const Header = () => {
             <MenuEpisodes />
             <MenuBlog />
             <li>
-              <a href="contact.html">Contáctanos</a>
-            </li>
-            <li className="menu-item-scheme">
-              <a href="#" title="Tema de color">
-                <em className="mdi mdi-weather-night"></em>
-                <em className="mdi mdi-white-balance-sunny"></em>
-                <span>Tema de color</span>
-              </a>
-            </li>
-            <li className="menu-item-search">
-              <a href="#searchform" title="Buscar">
-                <em className="mdi mdi-magnify"></em>
-                <em className="mdi mdi-close"></em>
-              </a>
-              <form
-                className="searchform"
-                method="get"
-                action="blog.html"
-                role="search"
-              >
-                <label className="screen-reader-text">Buscar:</label>
-                <input
-                  type="search"
-                  value=""
-                  name="s"
-                  placeholder="Search&hellip;"
-                />
-                <button type="submit">
-                  <em className="mdi mdi-magnify"></em>
-                  <span className="screen-reader-text">Buscar</span>
-                </button>
-              </form>
+              <a href={`/contact`}>Contáctanos</a>
             </li>
           </ul>
         </nav>

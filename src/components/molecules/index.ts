@@ -6,3 +6,7 @@ export * from "./featuredActions";
 export * from "./newEpisode";
 export * from "./postEpisode";
 export * from "./photoGallery";
+export * from "./footerHome";
+export * from "./headerHome";
+export * from "./instaHome";
+export * from "./pagination";
