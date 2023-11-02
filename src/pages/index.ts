@@ -5,3 +5,4 @@ export * from "./home";
 export * from "./privacyPolicy";
 export * from "./router";
 export * from "./singleBlog";
+export * from "./singleEpisodes";

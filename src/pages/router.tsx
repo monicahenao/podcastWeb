@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import { Home } from "./home";
 import { Episodes } from "./episodes";
 import { Blog, Contact, SingleBlog } from ".";
+import { SingleEpisodes } from "./singleEpisodes";
 
 export const router = createBrowserRouter([
   {
@@ -25,7 +26,11 @@ export const router = createBrowserRouter([
     element: <Contact />,
   },
   {
-    path: "/singlblog",
+    path: "/singleblog",
     element: <SingleBlog />,
+  },
+  {
+    path: "/singleepisodes",
+    element: <SingleEpisodes />,
   },
 ]);

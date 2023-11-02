@@ -6,7 +6,7 @@ export const NewEpisode = () => {
           Episodio Nuevo
         </p>
         <h1 className="display">
-          <a href="single-episode.html">
+          <a href={`/singleepisodes`}>
             #1: Presentación del pordcast Realidad Code-ficada
           </a>
         </h1>

@@ -1,5 +1,5 @@
 import { SampleFeatured } from "../assets";
-import { Pagination } from "../components/molecules";
+import { FooterHome, Pagination } from "../components/molecules";
 import { CardBlog } from "../components/molecules/cardBlog";
 
 export const Blog = () => {
@@ -34,6 +34,7 @@ export const Blog = () => {
           </div>
         </div>
       </div>
+      <FooterHome />
     </>
   );
 };

@@ -10,3 +10,4 @@ export * from "./footerHome";
 export * from "./headerHome";
 export * from "./instaHome";
 export * from "./pagination";
+export * from "./cardEpisodes";

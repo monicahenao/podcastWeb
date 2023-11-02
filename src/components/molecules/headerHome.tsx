@@ -8,7 +8,7 @@ export const HeaderHome = () => {
         <div className="wrapper">
           <NewEpisode />
           <div className="featured-cover">
-            <a href="single-episode.html" className="shine-on-hover">
+            <a href={`/singleepisodes`} className="shine-on-hover">
               <img src={Sample540} alt="" />
               <span className="flash">Nuevo</span>
             </a>
