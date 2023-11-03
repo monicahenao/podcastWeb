@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import { Home } from "./home";
 import { Episodes } from "./episodes";
-import { Blog, Contact, SingleBlog } from ".";
+import { Blog, Contact, PrivacyPolicy, SingleBlog } from ".";
 import { SingleEpisodes } from "./singleEpisodes";
 
 export const router = createBrowserRouter([
@@ -23,7 +23,7 @@ export const router = createBrowserRouter([
   },
   {
     path: "/privacypolicy",
-    element: <Contact />,
+    element: <PrivacyPolicy />,
   },
   {
     path: "/singleblog",

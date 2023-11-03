@@ -11,3 +11,5 @@ export * from "./headerHome";
 export * from "./instaHome";
 export * from "./pagination";
 export * from "./cardEpisodes";
+export * from "./authorBox";
+export * from "./commentBox";
