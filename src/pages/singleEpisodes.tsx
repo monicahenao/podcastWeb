@@ -1,5 +1,4 @@
 import { Sample540, SampleFeatured } from "../assets";
-import { CommentBox } from "../components/molecules";
 import { AuthorBox } from "../components/molecules/authorBox";
 
 export const SingleEpisodes = () => {
@@ -17,15 +16,15 @@ export const SingleEpisodes = () => {
                 <div className="entry-header">
                   <div className="entry-meta">
                     <span className="posted-in">
-                      <span className="screen-reader-text">Posted in:</span>{" "}
-                      <em className="mdi mdi-folder-outline"></em>{" "}
+                      <span className="screen-reader-text">Posted in:</span>
+                      <em className="mdi mdi-folder-outline"></em>
                       <a href={`/episodes`} rel="category tag">
                         Season 1
                       </a>
                     </span>
                     <span className="posted-on">
-                      <span className="screen-reader-text">Posted on</span>{" "}
-                      <em className="mdi mdi-calendar-blank"></em>{" "}
+                      <span className="screen-reader-text">Posted on</span>
+                      <em className="mdi mdi-calendar-blank"></em>
                       <a href={`/singleepisodes`} rel="bookmark">
                         <span className="entry-date published">
                           Sep 3, 2023
@@ -34,8 +33,8 @@ export const SingleEpisodes = () => {
                       </a>
                     </span>
                     <span className="tags">
-                      <span className="screen-reader-text">Tags:</span>{" "}
-                      <em className="mdi mdi-tag-outline"></em>{" "}
+                      <span className="screen-reader-text">Tags:</span>
+                      <em className="mdi mdi-tag-outline"></em>
                       <a href={`/episodes`} rel="tag">
                         clothes
                       </a>
@@ -150,7 +149,6 @@ export const SingleEpisodes = () => {
               drawing a single stroke at the present moment; and
             </p>
             <AuthorBox />
-            <CommentBox />
           </div>
         </div>
       </div>

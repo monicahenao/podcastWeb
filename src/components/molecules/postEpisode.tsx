@@ -16,14 +16,14 @@ export const PostEpisode = () => {
         </h2>
         <div className="entry-meta">
           <span className="posted-in">
-            <span className="screen-reader-text">Posteado en:</span>{" "}
-            <em className="mdi mdi-folder-outline"></em>{" "}
+            <span className="screen-reader-text">Posteado en:</span>
+            <em className="mdi mdi-folder-outline"></em>
             <a href={`/episodes`} rel="category tag">
               Temporada 1
             </a>
             <span className="posted-on">
-              <span className="screen-reader-text">Posted on</span>{" "}
-              <em className="mdi mdi-calendar-blank"></em>{" "}
+              <span className="screen-reader-text">Posted on</span>
+              <em className="mdi mdi-calendar-blank"></em>
               <a href={`/singleepisodes`} rel="bookmark">
                 <span className="entry-date published">Sep 13, 2023</span>
                 <span className="updated">Sep 13, 2023</span>

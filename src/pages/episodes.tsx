@@ -21,7 +21,7 @@ export const Episodes = () => {
                   rel="noopener noreferrer"
                 >
                   <span className="mdi mdi-apple"></span> iTunes
-                </a>{" "}
+                </a>
                 <a
                   className="button button-underline"
                   href="https://play.google.com/store/apps/details?id=com.google.android.apps.podcasts&hl=es&gl=US&pli=1"
@@ -29,7 +29,7 @@ export const Episodes = () => {
                   rel="noopener noreferrer"
                 >
                   <span className="mdi mdi-google-play"></span> Google Play
-                </a>{" "}
+                </a>
                 <a
                   className="button button-underline"
                   href="https://open.spotify.com/genre/podcasts-web"
@@ -37,7 +37,7 @@ export const Episodes = () => {
                   rel="noopener noreferrer"
                 >
                   <span className="mdi mdi-spotify"></span> Spotify
-                </a>{" "}
+                </a>
               </p>
             </div>
           </div>

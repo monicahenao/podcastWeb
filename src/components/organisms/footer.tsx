@@ -1,6 +1,25 @@
+import { useState } from "react";
 import { SocialItems } from "../molecules";
 
 export const Footer = () => {
+
+const [ formContact, setFormContact ] = useState({
+    email: ''
+});
+
+const handlerChange = (event: {target: {value: string | number, name: string}})=> {
+    
+  setFormContact({...formContact, [event.target.name]: event.target.value});
+}
+
+
+const handlerSubmit = (event: {preventDefault: ()=> void })=> {
+  event.preventDefault();
+  console.log(formContact);
+}
+
+
+
   return (
     <footer className="site-footer">
       <a
@@ -40,18 +59,20 @@ export const Footer = () => {
                   your content with understated charm and undeniable appeal.
                 </p>
                 <p className="one-line">
-                  <label className="sr-only">Subscription Email</label>{" "}
+                  <label className="sr-only">Subscription Email</label>
                   <input
                     type="email"
                     name="email"
-                    id="subscribe_email"
                     placeholder="Tu correo electrónico..."
                     required
+                    onChange={handlerChange}
+                    value={formContact.email}
                   />
                   <input
                     type="submit"
                     value="Suscripción"
                     className="button-color button-filled"
+                    onClick={handlerSubmit}
                   />
                 </p>
               </div>
@@ -62,7 +83,8 @@ export const Footer = () => {
       <div className="copyright">
         <p>
           &copy; 2023 <a href={`/`}>Realidad Code-ficada</a> &mdash; Creado con
-          &hearts; en Colombia. Todos los derechos reservados. &mdash;{" "}
+          &hearts; en Colombia. Todos los derechos reservados. &mdash;
+
           <a className="privacy-policy-link" href={`/privacypolicy`}>
             Política de privacidad
           </a>

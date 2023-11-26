@@ -13,23 +13,23 @@ export const CardEpisodes = () => {
           <header className="entry-header">
             <div className="entry-meta">
               <span className="posted-in">
-                <span className="screen-reader-text">Posted in:</span>{" "}
-                <em className="mdi mdi-folder-outline"></em>{" "}
+                <span className="screen-reader-text">Posted in:</span>
+                <em className="mdi mdi-folder-outline"></em>
                 <a href={`/episodes`} rel="category tag">
                   Season 1
                 </a>
               </span>
               <span className="posted-on">
-                <span className="screen-reader-text">Posted on</span>{" "}
-                <em className="mdi mdi-calendar-blank"></em>{" "}
+                <span className="screen-reader-text">Posted on</span>
+                <em className="mdi mdi-calendar-blank"></em>
                 <a href={`/singleepisodes`} rel="bookmark">
                   <span className="entry-date published">Sep 3, 2023</span>
                   <span className="updated">Sep 4, 2023</span>
                 </a>
               </span>
               <span className="tags">
-                <span className="screen-reader-text">Tags:</span>{" "}
-                <em className="mdi mdi-tag-outline"></em>{" "}
+                <span className="screen-reader-text">Tags:</span>
+                <em className="mdi mdi-tag-outline"></em>
                 <a href={`/episodes`} rel="tag">
                   adventure
                 </a>

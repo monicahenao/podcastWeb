@@ -8,7 +8,7 @@ export const PhotoGallery = () => {
         <span className="data">
           <span className="meta">
             <span className="likes">
-              <em className="mdi mdi-heart"></em>{" "}
+              <em className="mdi mdi-heart"></em>
               <strong className="count">3</strong>
             </span>
           </span>

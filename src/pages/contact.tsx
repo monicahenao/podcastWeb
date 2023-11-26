@@ -1,7 +1,29 @@
+import { useState } from "react";
 import { SampleFeatured } from "../assets";
 import { FooterHome, InstaHome } from "../components/molecules";
 
 export const Contact = () => {
+
+
+  const [ formContact, setFormContact ] = useState({
+      author: '',
+      email: '',
+      message: ''
+  });
+
+  const handlerChange = (event: {target: {value: string | number, name: string}})=> {
+    
+    setFormContact({...formContact, [event.target.name]: event.target.value});
+  }
+
+
+  const handlerSubmit = (event: {preventDefault: ()=> void })=> {
+    event.preventDefault();
+    console.log(formContact);
+  }
+
+
+
   return (
     <div>
       <a href={`/contact`} />
@@ -29,37 +51,35 @@ export const Contact = () => {
                 </p>
               </div>
             </div>
-            <form action="contact.html" method="post">
+            <form >
               <div className="alert">
-                This is an example of a form which needs proper backend
-                implementation to work.
+                Gracias por contactarnos, el mensaje fue enviado exitosamente, estamos ansiosos de leerlo. 
               </div>
               <p className="first-column no-margin-bottom">
                 <label htmlFor="author">
                   Tu nombre <span className="required">*</span>
-                </label>{" "}
+                </label>
                 <input
-                  id="author"
                   name="author"
                   type="text"
-                  value=""
-                  size="30"
-                  maxlength="245"
-                  required="required"
+                  size={30}
+                  maxLength={245}
+                  required
+                  onChange={handlerChange}
+                  value={formContact.author}
                 />
               </p>
               <p className="last-column no-margin-bottom">
                 <label htmlFor="email">
                   Tu correo electrónico <span className="required">*</span>
-                </label>{" "}
+                </label>
                 <input
-                  id="email"
                   name="email"
                   type="email"
-                  value=""
-                  size="30"
-                  maxlength="100"
-                  required="required"
+                  required
+                  onChange={handlerChange}
+                  value={formContact.email}
+
                 />
               </p>
               <p className="no-margin-bottom">
@@ -67,14 +87,16 @@ export const Contact = () => {
                   Tu mensaje <span className="required">*</span>
                 </label>
                 <textarea
-                  id="message"
                   name="message"
-                  cols="45"
-                  rows="5"
-                  maxlength="65525"
-                  required="required"
+                  cols={45}
+                  rows={5}
+                  maxLength={500}
+                  required
+                  onChange={handlerChange}
+                  value={formContact.message}
+
                 />
-                <textarea />
+              
               </p>
               <p className="no-margin-bottom">
                 <input
@@ -82,6 +104,7 @@ export const Contact = () => {
                   type="submit"
                   id="submit"
                   value="Enviar mensaje"
+                  onClick={handlerSubmit}
                 />
               </p>
             </form>

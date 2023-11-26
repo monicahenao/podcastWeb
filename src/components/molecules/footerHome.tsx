@@ -21,10 +21,10 @@ export const FooterHome = () => {
           <p>
             <a href="#" className="button button-primary">
               <span className="mdi mdi-amazon"></span> Amazon
-            </a>{" "}
+            </a>
             <a href="#" className="button button-primary">
               <span className="mdi mdi-apple"></span> iTunes
-            </a>{" "}
+            </a>
             <a href="#" className="button button-primary">
               <span className="mdi mdi-spotify"></span> Spotify
             </a>

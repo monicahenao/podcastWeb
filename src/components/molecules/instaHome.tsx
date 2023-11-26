@@ -10,7 +10,7 @@ export const InstaHome = () => {
           className="intro-gallery"
         >
           <span className="intro-gallery-title">
-            Encuentra mas momentos de Realidad Code-ficada{" "}
+            Encuentra mas momentos de Realidad Code-ficada
             <span className="highlight">en Instagram</span>
           </span>
           <em className="intro-gallery-username">@RealidadCode-ficada</em>

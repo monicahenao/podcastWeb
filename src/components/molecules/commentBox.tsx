@@ -15,8 +15,8 @@ export const CommentBox = () => {
             <p className="comment-notes">
               <span id="email-notes">
                 Su dirección de correo electrónico no será publicada.
-              </span>{" "}
-              Los campos obligatorios están marcados{" "}
+              </span>
+              Los campos obligatorios están marcados
               <span className="required">*</span>
             </p>
             <p className="comment-form-comment">
@@ -26,39 +26,39 @@ export const CommentBox = () => {
               <textarea
                 id="comment"
                 name="comment"
-                cols="45"
-                rows="6"
-                maxlength="65525"
-                required="required"
+                cols={45}
+                rows={6}
+                maxLength={500}
+                required
               ></textarea>
             </p>
             <p className="comment-form-author">
               <label htmlFor="author">
                 Nombre <span className="required">*</span>
-              </label>{" "}
+              </label>
               <input
                 id="author"
                 name="author"
                 type="text"
                 value=""
-                size="30"
-                maxlength="245"
-                required="required"
+                size={30}
+                maxLength={245}
+                required
               />
             </p>
             <p className="comment-form-email">
               <label htmlFor="email">
                 Correo electronico <span className="required">*</span>
-              </label>{" "}
+              </label>
               <input
                 id="email"
                 name="email"
                 type="email"
                 value=""
-                size="30"
-                maxlength="100"
+                size={30}
+                maxLength={100}
                 aria-describedby="email-notes"
-                required="required"
+                required
               />
             </p>
             <p className="form-submit">
@@ -66,7 +66,7 @@ export const CommentBox = () => {
                 name="submit"
                 type="submit"
                 id="submit"
-                value="Post comment"
+                value="Postear comentario"
               />
             </p>
           </form>

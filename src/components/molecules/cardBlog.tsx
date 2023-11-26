@@ -17,15 +17,15 @@ export const CardBlog = () => {
           </h2>
           <div className="entry-meta">
             <span className="posted-in">
-              <span className="screen-reader-text">Posted in:</span>{" "}
-              <em className="mdi mdi-folder-outline"></em>{" "}
+              <span className="screen-reader-text">Posted in:</span>
+              <em className="mdi mdi-folder-outline"></em>
               <a href={`/singleblog`} rel="category tag">
                 Interviews
               </a>
             </span>
             <span className="posted-on">
-              <span className="screen-reader-text">Posted on</span>{" "}
-              <em className="mdi mdi-calendar-blank"></em>{" "}
+              <span className="screen-reader-text">Posted on</span>
+              <em className="mdi mdi-calendar-blank"></em>
               <a href={`/singleblog`} rel="bookmark">
                 <span className="entry-date published">Jun 3, 2023</span>
                 <span className="updated">Jun 4, 2023</span>

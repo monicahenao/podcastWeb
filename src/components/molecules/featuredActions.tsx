@@ -13,7 +13,7 @@ export const FeaturedActions = () => {
       </div>
       <div className="featured-actions-secondary">
         <a href={`/episodes`}>
-          Explora todos los episodios{" "}
+          Explora todos los episodios
           <span className="mdi mdi-trending-neutral"></span>
         </a>
       </div>
