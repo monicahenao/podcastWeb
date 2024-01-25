@@ -1,4 +1,4 @@
-import { Sample540 } from "../../assets";
+import { Image1 } from "../../assets";
 
 export const AuthorBox = () => {
   return (
@@ -6,7 +6,7 @@ export const AuthorBox = () => {
       <div className="wrapper">
         <figure className="author-box-image">
           <img
-            src={Sample540}
+            src={Image1}
             width="100"
             height="100"
             className="avatar"
@@ -18,7 +18,7 @@ export const AuthorBox = () => {
         <div className="author-box-content">
           <h4 className="author-box-title">
             <span>
-              Publicado por
+              Publicado por &nbsp;
               <a
                 href="https://liviucerchez.com"
                 title="Visit Liviu Cerchez’s website"

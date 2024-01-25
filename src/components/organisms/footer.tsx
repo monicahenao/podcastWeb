@@ -2,23 +2,20 @@ import { useState } from "react";
 import { SocialItems } from "../molecules";
 
 export const Footer = () => {
+  const [formContact, setFormContact] = useState({
+    email: "",
+  });
 
-const [ formContact, setFormContact ] = useState({
-    email: ''
-});
+  const handlerChange = (event: {
+    target: { value: string | number; name: string };
+  }) => {
+    setFormContact({ ...formContact, [event.target.name]: event.target.value });
+  };
 
-const handlerChange = (event: {target: {value: string | number, name: string}})=> {
-    
-  setFormContact({...formContact, [event.target.name]: event.target.value});
-}
-
-
-const handlerSubmit = (event: {preventDefault: ()=> void })=> {
-  event.preventDefault();
-  console.log(formContact);
-}
-
-
+  const handlerSubmit = (event: { preventDefault: () => void }) => {
+    event.preventDefault();
+    console.log(formContact);
+  };
 
   return (
     <footer className="site-footer">
@@ -40,7 +37,7 @@ const handlerSubmit = (event: {preventDefault: ()=> void })=> {
         <div className="widget widget_logo">
           <h3>
             <a href={`/`} className="footer-title">
-              Realidad Code-ficada
+              Realidad Codificada
             </a>
           </h3>
         </div>
@@ -55,8 +52,8 @@ const handlerSubmit = (event: {preventDefault: ()=> void })=> {
             <form className="mc4wp-form" method="post" action="index.html">
               <div className="mc4wp-form-fields">
                 <p>
-                  A template with a simple and organized approach to presenting
-                  your content with understated charm and undeniable appeal.
+                  ¡Bienvenidos a Realidad Codificada, el espacio donde
+                  exploramos el fascinante mundo de la tecnología y el desarrollo!
                 </p>
                 <p className="one-line">
                   <label className="sr-only">Subscription Email</label>
@@ -82,9 +79,8 @@ const handlerSubmit = (event: {preventDefault: ()=> void })=> {
       </div>
       <div className="copyright">
         <p>
-          &copy; 2023 <a href={`/`}>Realidad Code-ficada</a> &mdash; Creado con
+          &copy; 2024 <a href={`/`}>Realidad Codificada</a> &mdash; Creado con
           &hearts; en Colombia. Todos los derechos reservados. &mdash;
-
           <a className="privacy-policy-link" href={`/privacypolicy`}>
             Política de privacidad
           </a>

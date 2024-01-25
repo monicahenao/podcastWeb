@@ -11,7 +11,7 @@ export const PostEpisode = () => {
       <header className="entry-header">
         <h2 className="entry-title">
           <a href={`/singleepisodes`} rel="bookmark">
-            #1: Presentación del pordcast Realidad Code-ficada
+            #1: Presentación del pordcast Realidad Codificada
           </a>
         </h2>
         <div className="entry-meta">
@@ -22,7 +22,7 @@ export const PostEpisode = () => {
               Temporada 1
             </a>
             <span className="posted-on">
-              <span className="screen-reader-text">Posted on</span>
+              <span className="screen-reader-text">Postaeado en:</span>
               <em className="mdi mdi-calendar-blank"></em>
               <a href={`/singleepisodes`} rel="bookmark">
                 <span className="entry-date published">Sep 13, 2023</span>

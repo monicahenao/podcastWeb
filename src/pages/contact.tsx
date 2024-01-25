@@ -43,11 +43,9 @@ export const Contact = () => {
           <div className="entry-content">
             <div className="block-columns text-center">
               <div className="block-column">
-                <h4>Nuestros correos electrónicos</h4>
+                <h4>Nuestro correo electrónico</h4>
                 <p className="text-faded text-uppercase">
-                  realidadcode-ficada@gmail.com
-                  <br />
-                  contactanosrealidadcode-ficada@gmail.com
+                  realidadcodificada@gmail.com
                 </p>
               </div>
             </div>

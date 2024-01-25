@@ -16,7 +16,7 @@ export const CardEpisodes = () => {
                 <span className="screen-reader-text">Posted in:</span>
                 <em className="mdi mdi-folder-outline"></em>
                 <a href={`/episodes`} rel="category tag">
-                  Season 1
+                  Temporada 1
                 </a>
               </span>
               <span className="posted-on">
@@ -31,17 +31,17 @@ export const CardEpisodes = () => {
                 <span className="screen-reader-text">Tags:</span>
                 <em className="mdi mdi-tag-outline"></em>
                 <a href={`/episodes`} rel="tag">
-                  adventure
+                  Introducción
                 </a>
                 <span>, </span>
                 <a href={`/episodes`} rel="tag">
-                  talk
+                  Podcast
                 </a>
               </span>
             </div>
             <h2 className="entry-title">
               <a href={`/singleepisodes`} rel="bookmark">
-                #1: Presentación del pordcast Realidad Code-ficada
+                #1: Presentación del pordcast Realidad Codificada
               </a>
             </h2>
           </header>

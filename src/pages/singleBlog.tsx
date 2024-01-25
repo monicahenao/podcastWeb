@@ -91,13 +91,6 @@ export const SingleBlog = () => {
               complicándonos la vida.
             </p>
             <p>
-              I am alone, and feel the charm of existence in this spot, which
-              was created for the bliss of souls like mine. I am so happy, my
-              dear friend, so absorbed in the exquisite sense of mere tranquil
-              existence, that I neglect my talents. I should be incapable of
-              drawing a single stroke at the present moment; and
-            </p>
-            <p>
               La solución, según Microsoft, es pasarse a Windows 11. Ahora bien,
               no todos podrán dar el salto, aunque quisieran. Según recoge The
               Register, unas 400 millones de PC no cumplen con los requisitos

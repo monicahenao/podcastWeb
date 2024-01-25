@@ -11,7 +11,7 @@ export const SingleEpisodes = () => {
             <div className="featured-episode">
               <div className="featured-episode-text">
                 <h1 className="display">
-                  #1: Presentación del pordcast Realidad Code-ficada
+                  #1: Presentación del pordcast Realidad Codificada
                 </h1>
                 <div className="entry-header">
                   <div className="entry-meta">
@@ -19,11 +19,11 @@ export const SingleEpisodes = () => {
                       <span className="screen-reader-text">Posted in:</span>
                       <em className="mdi mdi-folder-outline"></em>
                       <a href={`/episodes`} rel="category tag">
-                        Season 1
+                        Temporada 1
                       </a>
                     </span>
                     <span className="posted-on">
-                      <span className="screen-reader-text">Posted on</span>
+                      <span className="screen-reader-text">Posteado en:</span>
                       <em className="mdi mdi-calendar-blank"></em>
                       <a href={`/singleepisodes`} rel="bookmark">
                         <span className="entry-date published">
@@ -36,15 +36,15 @@ export const SingleEpisodes = () => {
                       <span className="screen-reader-text">Tags:</span>
                       <em className="mdi mdi-tag-outline"></em>
                       <a href={`/episodes`} rel="tag">
-                        clothes
+                        Introdrucción
                       </a>
                       <span>, </span>
                       <a href={`/episodes`} rel="tag">
-                        travel
+                        Podcast
                       </a>
                       <span>, </span>
                       <a href={`/episodes`} rel="tag">
-                        solo
+                        Tecnología
                       </a>
                     </span>
                   </div>
@@ -97,56 +97,63 @@ export const SingleEpisodes = () => {
         <div className="wrapper">
           <div className="entry-content">
             <p>
-              A wonderful serenity has taken possession of my entire soul, like
-              these sweet mornings of spring which I enjoy with my whole heart.
+              ¡Bienvenidos a Realidad Codificada, el espacio donde exploramos el
+              fascinante mundo de la tecnología! Soy Daniel Castaño y Valentina
+              Zapata, sus anfitriones entusiastas, y estamos emocionados de
+              sumergirnos juntos en las últimas novedades, innovaciones y
+              tendencias que están dando forma al futuro digital.
             </p>
             <h6>Main discussed topics</h6>
             <p>
-              I throw myself down among the tall grass by the trickling stream;
-              and, as I lie close to the earth, a thousand unknown plants are
-              noticed by me: when I hear the buzz of the little world among the
-              stalks, and grow familiar with the countless indescribable forms
-              of the insects and flies.
+              Desde gadgets sorprendentes hasta avances científicos,
+              analizaremos cómo la tecnología está transformando nuestra forma
+              de vivir, trabajar y comunicarnos. ¿Te preguntas qué hay de nuevo
+              en inteligencia artificial, realidad virtual, o la próxima
+              revolución en la industria? Este es el lugar donde encontrarás
+              respuestas.
             </p>
             <p>
-              And then, my friend, when darkness overspreads my eyes, and heaven
-              and earth seem to dwell in my soul and absorb its power, like the
-              form of a beloved mistress, then I often think with longing, Oh,
-              would I could describe these conceptions, could impress upon paper
-              all that is living so full and warm within me, that it might be
-              the mirror of my soul, as my soul is the mirror of the infinite
-              God!
+              Cada semana, exploraremos entrevistas con expertos, desglosaremos
+              noticias tecnológicas candentes y compartiremos consejos prácticos
+              para aprovechar al máximo la tecnología en tu vida cotidiana. ¡Así
+              que prepárate para un viaje emocionante a través del universo
+              tecnológico en Realidad Codificada!
             </p>
             <p>
-              O my friend — but it is too much for my strength — I sink under
-              the weight of the splendor of these visions:
+              En cada episodio, nos sumergiremos en los avances más recientes,
+              desde la inteligencia artificial hasta las últimas tendencias en
+              dispositivos móviles y más allá. Conversaremos con expertos de la
+              industria, exploraremos los límites de la innovación y
+              descubriremos cómo estos avances están dando forma a nuestro
+              presente y futuro.
             </p>
-            <ul>
-              <li>
-                who are so beguiled and demoralized by the charms of pleasure of
-                the moment;
-              </li>
-              <li>
-                so blinded by desire, that they cannot foresee the pain and
-                trouble that are bound to ensue;
-              </li>
-              <li>
-                and equal blame belongs to those who fail in their duty through
-                weakness of will, which is the same as saying through shrinking
-                from toil and pain.
-              </li>
-            </ul>
+            <p>
+              Pero no solo nos detendremos en las noticias y desarrollos
+              tecnológicos. También exploraremos el impacto social, ético y
+              cultural de la tecnología en nuestra vida diaria. ¿Cómo afecta la
+              inteligencia artificial a la forma en que trabajamos? ¿Qué
+              implicaciones tiene la realidad virtual en nuestra percepción del
+              mundo? Estas son solo algunas de las preguntas que exploraremos en
+              cada episodio.
+            </p>
+            <p>
+              Además, compartiremos consejos prácticos, reseñas de productos y
+              experiencias personales para ayudarte a aprovechar al máximo la
+              tecnología en tu día a día. Ya sea que seas un entusiasta de la
+              tecnología o simplemente estés buscando mantenerte al día con las
+              últimas novedades, este podcast es tu puerta de entrada a un
+              fascinante viaje por el universo tecnológico.
+            </p>
             <figure className="block-image alignwide shine-on-children-hover">
               <a href="tmp/sample-featured.jpg" data-fancybox="test-gallery">
                 <img src={SampleFeatured} alt="" />
               </a>
             </figure>
             <p>
-              I am alone, and feel the charm of existence in this spot, which
-              was created for the bliss of souls like mine. I am so happy, my
-              dear friend, so absorbed in the exquisite sense of mere tranquil
-              existence, that I neglect my talents. I should be incapable of
-              drawing a single stroke at the present moment; and
+              Así que únete a nosotros cada semana en Realidad Codificada, donde
+              la tecnología se encuentra con la curiosidad y la innovación se
+              encuentra con la conversación. ¡Estamos emocionados de tenerte a
+              bordo en este emocionante viaje tecnológico!
             </p>
             <AuthorBox />
           </div>

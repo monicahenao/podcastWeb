@@ -14,6 +14,7 @@ import Sample540alt from "./tmp/sample-400x600.jpg";
 import SampleDigital from "./tmp/sample-400x600.jpg";
 import SampleFeaturedVideo from "./tmp/sample-400x600.jpg";
 import SampleFeatured from "./tmp/sample-400x600.jpg";
+import Image1 from "./tmp/Image1.jpg";
 
 export {
   LogoDarkp,
@@ -26,4 +27,5 @@ export {
   SampleDigital,
   SampleFeaturedVideo,
   SampleFeatured,
+  Image1
 };

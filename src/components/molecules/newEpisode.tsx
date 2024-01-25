@@ -7,7 +7,7 @@ export const NewEpisode = () => {
         </p>
         <h1 className="display">
           <a href={`/singleepisodes`}>
-            #1: Presentación del pordcast Realidad Code-ficada
+            #1: Presentación del podcast Realidad Codificada
           </a>
         </h1>
         <p>

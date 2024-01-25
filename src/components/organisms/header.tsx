@@ -28,7 +28,7 @@ export const Header = () => {
             />
           </a>
           <p className="site-description screen-reader-text">
-            Podcast Realidad Code-ficada
+            Podcast Realidad Codificada
           </p>
         </div>
         <div id="menu-toggle" className="mobile-menu-toggle">

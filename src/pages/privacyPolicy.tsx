@@ -18,22 +18,22 @@ export const PrivacyPolicy = () => {
         <div className="wrapper">
           <div className="entry-content">
             <p>
-              Realidad Code-ficada.com está comprometida con garantizar los
+              RealidadCodificada.com está comprometida con garantizar los
               derechos de protección de datos y evitar que tenga un uso
               indebido. Al compartir su información personal con nosotros, usted
               confirma que ha leído y aceptado los términos de esta política de
-              privacidad. Realidad Code-ficada.com asume la responsabilidad por
-              la información personal que recopilamos sobre usted, por lo que
-              somos transparentes sobre la forma en que la manejamos. Si tiene
-              alguna pregunta, comentario o inquietud sobre cualquier aspecto de
-              esta política, puede contactarnos para que podamos dirigir su
-              consulta a nuestro equipo.
+              privacidad. RealidadCodificada.com asume la responsabilidad por la
+              información personal que recopilamos sobre usted, por lo que somos
+              transparentes sobre la forma en que la manejamos. Si tiene alguna
+              pregunta, comentario o inquietud sobre cualquier aspecto de esta
+              política, puede contactarnos para que podamos dirigir su consulta
+              a nuestro equipo.
             </p>
             <h3>Información personal</h3>
             <p>
               De acuerdo con lo establecido en el Decreto 1377 de 2013, que
               reglamentó parcialmente la Ley General de Protección de Datos
-              Personales, Ley 1581 de 2012, para Realidad Code-ficada.com es un
+              Personales, Ley 1581 de 2012, para RealidadCodificada.com es un
               deber el manejo responsable y adecuado de las bases de datos
               suministrado por los usuarios de sus servicios digitales.
               Recopilamos su información personal para brindarle la información
@@ -62,19 +62,19 @@ export const PrivacyPolicy = () => {
               Informarle las novedades de su solicitud. Brindar servicios.
               Enviar información de los contenidos y campañas acordes a los
               contenidos Informarle sobre los cambio o modificaciones en las
-              políticas de Realidad Code-ficada.com.
+              políticas de RealidadCodificada.com.
             </li>
             <h3>Modificaciones</h3>
             <p>
               Si se modificara cualquier parte de la información que le
-              proporcionó a DianaUribe.fm, por ejemplo, si cambia su dirección
-              de correo electrónico o nombre, puede actualizar, modificar o
-              eliminar la información mediante el envío de una solicitud a
-              comunicacionesrealidadcode-ficada@gmail.com.
+              proporcionó a RealidadCodificada.com, por ejemplo, si cambia su
+              dirección de correo electrónico o nombre, puede actualizar,
+              modificar o eliminar la información mediante el envío de una
+              solicitud a realidadcodificada@gmail.com.
             </p>
             <h3>Protección de información</h3>
             <p>
-              A través de este medio Realidad Code-ficada.com solicita la
+              A través de este medio RealidadCodificada.com solicita la
               autorización a todos sus usuarios para continuar haciendo uso de
               los datos personales de manera adecuada.
             </p>
@@ -92,7 +92,7 @@ export const PrivacyPolicy = () => {
               Si tiene alguna pregunta, comentario o inquietud o desea presentar
               una queja por la forma en que usamos la información personal que
               tenemos sobre usted, envíe un correo electrónico a
-              comunicacionesrealidadcode-ficada@gmail.com
+              realidadcodificada@gmail.com
             </p>
           </div>
         </div>
